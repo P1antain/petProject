@@ -1,0 +1,32 @@
+.color{
+    min-height: calc(100vh - 3rem);
+    display: grid;
+    place-items: center;
+}
+.color__container{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+.color__name{
+    padding: 0.5rem;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+.color__button{
+    outline: none;
+    font-family: cursive;
+    font-size: 1.5rem;
+    padding: 12px;
+    width: 220px;
+    background: none;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: 1s background  linear;
+}
+.color__button:hover{
+    background: rgba(0, 0, 0, 0.3);
+}
